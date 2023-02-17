@@ -1,0 +1,117 @@
+body{
+	background:black;
+font-family:Arial;
+padding:0;
+margin:0;
+color:white;
+
+}	
+.second{
+clear:both;
+display:table;
+width:100%;
+content:'';
+}
+header{
+background: url('uuuu.jpg') no-repeat center top  / cover;
+height:942px;
+}
+.container{
+width:960px;
+margin:0 auto;
+}
+nav{
+float:right;
+margin-top:45px;
+}
+ul{
+padding:0;
+margin:0;
+}
+ul li{
+float:left;
+display:block;
+margin-right:41px; 
+
+}
+ul li a{
+color:white;
+text-decoration:none;
+text-transform:uppercase;
+font-size:
+}
+.titles__first{
+color:#fff;
+text-transform:uppercase;
+font-size:40px;
+text-align:center;
+margin-top:690px;
+}
+h1{
+font-size:75px;
+text-transform:uppercase;
+color:#fff;
+text-align:center;
+margin:0;
+}
+.button{
+background:#fed136;
+color:#484543;
+display:block;
+border-radius:3px;
+width:240px;
+padding:20px 0;
+margin:0 auto;
+text-decoration:none;
+text-align:center;
+text-transform:uppercase;
+font-weight:bold;
+}	
+.title{
+padding-top:120px;
+}
+
+.title h2{
+font-size:40px;
+font-weight:bold;
+text-align:center;
+text-transform:uppercase;
+margin:0;
+
+}
+.title p{
+font-size:20px;
+color:blue;
+text-transform:uppercase;
+text-align:center;
+margin-top:5px;
+}
+div.gallery {
+	margin-top:40px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 280px;
+    margin-left:130px;
+	}
+	
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+ div.gallery img {
+    width: 100%;
+    height: 250px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+section.you{
+	background:black;
+}
+footer{
+	margin-top:1800px;
+	height:100px;
+	background:blue;
+}

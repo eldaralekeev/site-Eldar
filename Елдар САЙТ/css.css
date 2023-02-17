@@ -1,0 +1,66 @@
+html{background: url(33.jpg)no-repeat center center fixed; 
+background-size: cover} 
+#nav{ 
+font-family: 'Open Sans', arial; 
+} 
+
+#nav li{ 
+float:right; 
+position:relative; 
+list-style:none; 
+background:#4169E1; 
+width:190px; 
+} 
+#nav a{ 
+text-decoration:none; 
+display:block; 
+padding:35px 35px; 
+color:#ffffff; 
+} 
+
+#active a, #nav li:hover > a{ 
+background:#b32424; 
+} 
+
+#nav ul { 
+visibility:hidden; 
+padding:0; 
+position:absolute; 
+} 
+#nav li:hover > ul{ 
+visibility:visible; 
+position: relative; 
+} 
+
+#nav ul a{ 
+padding:18.5px 65px; 
+} 
+
+#nav ul li:hover{ 
+background:#d92a2a; 
+} 
+
+#nav li:first-child:hover > ul{ 
+left: 0px; 
+} 
+#nav > li{ 
+border-right: 2px solid #d92a2a; 
+} 
+
+#nav > li:last-child{ 
+border-right: none; 
+} 
+#nav > li ul li{ 
+border-left: 2px solid #d92a2a; 
+border-right:2px solid #d92a2a; 
+} 
+
+#nav li:first-child ul li,#nav li:first-child ul{ 
+border-left:none; 
+} 
+#nav li:last-child ul li,#nav li:last-child ul{ 
+border-right:none; 
+} 
+#nav li:hover > ul{ 
+left: -2px; 
+}
